@@ -1,0 +1,78 @@
+
+.stApp > header {  
+    background-color: #a7a7a7;
+    color:#f8f8f8;  
+    padding:2rem;  
+}  
+
+.stApp{  
+    background-color: #d4d3d3;  
+    color:#000000;  
+    padding:2rem;  
+}  
+
+/* Sidebar styling */  
+[data-testid="stSidebar"]{  
+    background-color: #a7a7a7;
+    color: #ffffff;  
+}  
+
+[data-testid="stSidebarNav"] {  
+    background-image: url(https://logolook.net/wp-content/uploads/2021/06/Microsoft-Logo.png);  
+    background-repeat: no-repeat;  
+    padding-top: 100px;  
+    background-position: 20px -10px;  
+    background-size: 300px;  
+}  
+  
+[data-testid="stSidebarNav"]::before {  
+    content: "";  
+    margin-left: 60px;  
+    margin-top: 20px;  
+    font-size: 30px;  
+    position: relative;  
+    top: 100px;  
+    font-weight: bold;  
+    text-align: center;  
+}  
+  
+/* Success message styling */  
+.success-message {  
+    text-align: center;  
+    margin: 20px 0;  
+}  
+  
+/* Main title styling */  
+h1 {  
+    color: #000400;  
+    text-align: center;  
+    margin-bottom: 20px;  
+    font-family:cursive;
+    font-size: 50px;
+}  
+  
+/* Select box styling */  
+.css-2trqyj {  
+    font-size: 18px;  
+}  
+  
+/* Number input styling */  
+.css-1siy2j7 {  
+    font-size: 18px;  
+}  
+  
+/* Radio button styling */  
+.css-1awt6go {  
+    font-size: 18px;  
+}  
+  
+/* DataFrame styling */  
+.css-1l269bu {  
+    margin-top: 20px;  
+}  
+  
+/* Spinner styling */  
+.css-1f6lu8k {  
+    margin-top: 20px;  
+    text-align: center;  
+}  
