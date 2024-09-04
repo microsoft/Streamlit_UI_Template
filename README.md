@@ -2,14 +2,20 @@
 
 This repository contains guides and templates for embedding CSS into Streamlit applications. It provides step-by-step instructions on how to create and implement a CSS file in your Streamlit project. Ideal for those looking to customize their Streamlit UI appearance.
 
-***If interested in a specific template, please reach out to Cameron Jackson (MS Fed Civ - Cloud Solution Architect) at camerjackson@microsoft.com.***
+If interested in a specific template, please reach out to Cameron Jackson (MS Fed Civ - Cloud Solution Architect) at camerjackson@microsoft.com.
 
-## Prerequisites
+Navigate to:
+- [Prerequisites](#prerequisites)
+- [Embed CSS to Streamlit site](#embed-css-to-streamlit-site)
+- [Run the Demo App Locally](#run-the-demo-app-locally)
+- [Templates](#templates)
+
+## Prerequisites <a name="prerequisites"></a> 
 
 - Installed a code editor such as [Visual Studio Code](https://code.visualstudio.com/download) or an equivalent.
 - Installed [Python](https://www.python.org/downloads/) on your machine. Python installation by running `python --version` in the command line. This project was created with Python 3.11.
 
-## Embed CSS to Streamlit site
+## Embed CSS to Streamlit site  <a name="embed-css-to-streamlit-site"></a> 
 
 To embed css file to streamlit follow these steps:
 1. Create CSS file in project directory. Use `style_example.css` as template.
@@ -32,7 +38,7 @@ To embed css file to streamlit follow these steps:
         global_page_style()
 ```
 
-## Run the Demo App Locally
+## Run the Demo App Locally <a name="run-the-demo-app-locally"></a> 
 
 **Clone this repository**
 ```
@@ -64,7 +70,7 @@ cd app
 streamlit run Page_One.py
 ```
 
-## Templates
+## Templates <a name="templates"></a> 
 ### Template #1
  Key modifications include styling the main app container, form elements, sidebar, navigation bar, success messages, titles, buttons, text inputs, and select boxes in a streamlit application.
 
