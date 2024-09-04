@@ -1,4 +1,4 @@
-from styling import global_page_style
+from styling import template1_page_style
 import streamlit as st  
   
 def main():  
@@ -8,5 +8,5 @@ def main():
     st.page_link("Page_One.py", label="Page One", icon="🏠")
   
 if __name__ == "__main__":  
-    global_page_style()
+    template1_page_style()
     main()  

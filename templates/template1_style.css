@@ -1,0 +1,121 @@
+/* Main app styling*/
+.stApp{  
+    background-color: #d4d3d3;  
+    color:#000000;  
+    padding:20px;
+}  
+
+.stApp > header {  
+    background-color: #a7a7a7;
+    color:#f8f8f8;  
+    padding:2rem;  
+}  
+
+.stTextInput, .stSelectbox{  
+    margin-bottom: 20px;  /*Add spacing between these elements*/
+}  
+
+/* Sidebar styling */  
+[data-testid="stSidebar"]{  
+    background-color: #a7a7a7;
+    color: #ffffff;  
+}  
+
+[data-testid="stSidebarNav"] {  
+    background-image: url(https://logolook.net/wp-content/uploads/2021/06/Microsoft-Logo.png);  
+    background-repeat: no-repeat;  
+    padding-top: 100px;  
+    background-position: 20px -10px;  
+    background-size: 300px;  
+}  
+  
+[data-testid="stSidebarNav"]::before {  
+    content: "";  
+    margin-left: 60px;  
+    margin-top: 20px;  
+    font-size: 20px;  
+    position: relative;  
+    top: -300px;  
+    font-weight: bold;  
+    text-align: center;  
+}  
+  
+/* Success message styling */  
+.success-message {  
+    text-align: center;  
+    margin: 20px 0;  
+}  
+  
+/* Main title styling */  
+h1 {  
+    color: #000400;  
+    text-align: center;  
+    margin-bottom: 20px;  
+    font-family:cursive;
+    font-size: 50px;
+}  
+
+/* Button styling */
+.stButton button {  
+    background-color: #0073e6;  
+    color: white;  
+    border-radius: 5px;  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    border: none;  
+    cursor: pointer;  
+}  
+.stButton button:hover {  
+    background-color: #005bb5;  
+    color: yellow
+}  
+
+/* text input styling */
+.stTextInput input {  
+    border: 1px dashed #0c00e6; /* Slightly thinner border for a cleaner look */  
+    border-radius: 5px; /* Rounded corners for a modern touch */  
+    padding: 8px 12px; /* Adjusted padding for better alignment */  
+    background-color: #f9f9f9; /* Light background color for contrast */  
+    font-size: 16px; /* Slightly larger font for readability */  
+    color: #333; /* Darker text color for better readability */  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */  
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */  
+}  
+
+.stTextInput input:hover {  
+    box-shadow: 0 20px 8px rgba(0, 0, 0, 0.15); /* Slightly larger shadow on hover */  
+    border-color: #b60000;  
+}  
+
+
+.stTextInput:hover {  
+    box-shadow: 0 20px 8px rgba(0, 0, 0, 0.15); /* Slightly larger shadow on hover */  
+}  
+  
+.stTextInput:focus {  
+    border-color: #0a00b6; /* Darker border color on focus */  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Slightly larger shadow on focus */  
+}  
+
+/* Selectbox styling */
+.stSelectbox {  
+    border: 1px solid #0c00e6; /* Slightly thinner border for a cleaner look */  
+    border-radius: 5px; /* Rounded corners for a modern touch */  
+    padding: 8px 12px; /* Adjusted padding for better alignment */  
+    background-color: #f9f9f9; /* Light background color for contrast */  
+    font-size: 16px; /* Slightly larger font for readability */  
+    color: #333; /* Darker text color for better readability */  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */  
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */  
+}  
+  
+.stSelectbox:hover {  
+    border-color: #b60000; /* Darker border color on hover */  
+    box-shadow: 0 20px 8px rgba(0, 0, 0, 0.15); /* Slightly larger shadow on hover */  
+}  
+  
+.stSelectbox:focus {  
+    border-color: #0a00b6; /* Darker border color on focus */  
+    outline: none; /* Remove default outline */  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Slightly larger shadow on focus */  
+} 

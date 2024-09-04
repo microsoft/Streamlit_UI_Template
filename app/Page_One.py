@@ -1,5 +1,5 @@
-from styling import global_page_style
 import streamlit as st  
+from styling import template1_page_style
   
 def main():  
     st.title('Welcome to Streamlit_UI_Template')  
@@ -24,5 +24,5 @@ def main():
 
 
 if __name__ == "__main__":  
-    global_page_style()
+    template1_page_style()
     main()  

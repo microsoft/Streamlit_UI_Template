@@ -1,6 +1,8 @@
 # Streamlit UI Template (CSS)
 
-This repository contains a guide and template for embedding CSS into a Streamlit application. It provides step-by-step instructions on how to create and implement a CSS file in your Streamlit project. Ideal for those looking to customize their Streamlit UI appearance.
+This repository contains guides and templates for embedding CSS into Streamlit applications. It provides step-by-step instructions on how to create and implement a CSS file in your Streamlit project. Ideal for those looking to customize their Streamlit UI appearance.
+
+***If interested in a specific template, please reach out to Cameron Jackson (MS Fed Civ - Cloud Solution Architect) at camerjackson@microsoft.com.***
 
 ## Prerequisites
 
@@ -61,3 +63,16 @@ cd app
 ```
 streamlit run Page_One.py
 ```
+
+## Templates
+### Template #1
+ Key modifications include styling the main app container, form elements, sidebar, navigation bar, success messages, titles, buttons, text inputs, and select boxes in a streamlit application.
+
+[Template #1 - Image](media/basic_template.png)
+
+[Template #1 - MP4](media/streamlit_template1.mp4)
+
+[Template #1 - Tutorial](tutorials/template1_style/readme.md)
+
+### Template #2
+Coming soon...
