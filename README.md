@@ -68,7 +68,7 @@ streamlit run Page_One.py
 ### Template #1
  Key modifications include styling the main app container, form elements, sidebar, navigation bar, success messages, titles, buttons, text inputs, and select boxes in a streamlit application.
 
-[Template #1 - Image](media/basic_template.png)
+[Template #1 - Image](media/template1_style.png)
 
 [Template #1 - MP4](https://microsoft-my.sharepoint.com/:v:/p/camerjackson/EXjjir5b0r1Gg91bKMBzakcBuTS4RqItXuzgc6X0sEPm7Q?e=XfwgDC)
 
