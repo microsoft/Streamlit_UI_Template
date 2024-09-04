@@ -1,14 +1,14 @@
 # Tutorial for template1_style.css
 This tutorial is designed to guide users through the process of customizing the template1_style.css file to enhance the visual appeal and functionality of a Streamlit application. Learning objectives include: 
-1. Main App Styling
-2. Form Element Styling
-3. Sidebar Styling
-4. Navigation Styling
-5. Success Message Styling
-6. Main Title Styling
-7. Button Styling
-8. Text Input Styling
-9. Select Box Styling
+1. [Main App Styling](#main-app-styling)  
+2. [Form Element Styling](#form-element-styling)  
+3. [Sidebar Styling](#sidebar-styling)  
+4. [Navigation Styling](#navigation-styling)  
+5. [Success Message Styling](#success-message-styling)  
+6. [Main Title Styling](#main-title-styling)  
+7. [Button Styling](#button-styling)  
+8. [Text Input Styling](#text-input-styling)  
+9. [Select Box Styling](#select-box-styling)  
 
 The tutorial provides clear instructions on how to apply various CSS properties to achieve a cohesive and polished user interface. Each section covers essential CSS classes and attribute selectors, ensuring that users can easily follow along and implement the styles effectively.
 
