@@ -276,15 +276,15 @@ The .stSelectbox:focus selector changes the appearance of the select box when it
 ## Conclusion 
 This tutorial provided detailed instructions for customizing the template1_style.css file used in a Streamlit application. Objectives covered included:
 
-1. [Main App Styling](#1-main-app-styling)  
-2. [Form Element Styling](#2-form-element-styling)  
-3. [Sidebar Styling](#3-sidebar-styling)  
-4. [Navigation Styling](#4-navigation-styling)  
-5. [Success Message Styling](#5-success-message-styling)  
-6. [Main Title Styling](#6-main-title-styling)  
-7. [Button Styling](#7-button-styling)  
-8. [Text Input Styling](#8-text-input-styling)  
-9. [Select Box Styling](#9-select-box-styling)  
+1. [Main App Styling](#main-app-styling)  
+2. [Form Element Styling](#form-element-styling)  
+3. [Sidebar Styling](#sidebar-styling)  
+4. [Navigation Styling](#navigation-styling)  
+5. [Success Message Styling](#success-message-styling)  
+6. [Main Title Styling](#main-title-styling)  
+7. [Button Styling](#button-styling)  
+8. [Text Input Styling](#text-input-styling)  
+9. [Select Box Styling](#select-box-styling)  
 
 
 Each section specifies various CSS classes and attribute selectors, detailing how they can be applied within a Streamlit application to achieve specific visual effects.
