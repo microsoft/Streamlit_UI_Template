@@ -95,4 +95,4 @@ streamlit run Page_One.py
 
 [Template #2 - CSS](templates/template2_style.css)
 
-[Template #2 - Python](app/Page_Two.py)
+[Template #2 - Python](app/pages/Page_Two.py)
