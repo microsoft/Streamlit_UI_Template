@@ -76,9 +76,23 @@ streamlit run Page_One.py
 
 [Template #1 - Image](media/template1_style.png)
 
-[Template #1 - MP4](https://microsoft-my.sharepoint.com/:v:/p/camerjackson/EXjjir5b0r1Gg91bKMBzakcBuTS4RqItXuzgc6X0sEPm7Q?e=XfwgDC)
+[Template #1 - Demo Video](https://microsoft-my.sharepoint.com/:v:/p/camerjackson/EXjjir5b0r1Gg91bKMBzakcBuTS4RqItXuzgc6X0sEPm7Q?e=XfwgDC)
 
 [Template #1 - Tutorial](tutorials/template1_style/readme.md)
 
+[Template #1 - CSS](templates/template1_style.css)
+
+[Template #1 - Python](app/Page_One.py)
+
 ### Template #2
-Coming soon...
+ Key modifications include styling the chat input class and streamlit menu class, in a streamlit application.
+
+[Template #2 - Image](media/template2_style.png)
+
+[Template #2 - Demo Video](https://microsoft-my.sharepoint.com/:v:/p/camerjackson/EVQHO8swd09BgHMDd9-i9mcB2UVUs69A3UtYGZalinrlAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bUfojP)
+
+[Template #2 - Tutorial](tutorials/template2_style/readme.md)
+
+[Template #2 - CSS](templates/template2_style.css)
+
+[Template #2 - Python](app/Page_Two.py)

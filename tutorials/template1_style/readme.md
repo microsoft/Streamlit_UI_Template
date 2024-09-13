@@ -12,7 +12,7 @@ This tutorial is designed to guide users through the process of customizing the 
 
 The tutorial provides clear instructions on how to apply various CSS properties to achieve a cohesive and polished user interface. Each section covers essential CSS classes and attribute selectors, ensuring that users can easily follow along and implement the styles effectively.
 
-***Note: This template is currently being used for Page 1 and Page 2 on the demo streamlit app***. 
+***Note: This template is currently being used for Page 1 on the demo streamlit app***. 
 
 To recreate `template1.css` and modify the components, please follow the steps below:
 
