@@ -1,2 +1,9 @@
 .venv
 app/__pycache__
+apps/app_2/pages/__pycache__/page_2.cpython-311.pyc
+apps/app_2/pages/__pycache__/page_1.cpython-311.pyc
+apps/app_2/pages/__pycache__/home.cpython-311.pyc
+apps/app_2/pages/__pycache__/__init__.cpython-311.pyc
+apps/app_2/__pycache__/styling.cpython-311.pyc
+apps/app_1/__pycache__/styling.cpython-311.pyc
+apps/app_1/__pycache__/Page_One.cpython-311.pyc

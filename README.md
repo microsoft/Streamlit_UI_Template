@@ -71,28 +71,37 @@ streamlit run Page_One.py
 ```
 
 ## Templates <a name="templates"></a> 
-### Template #1
+### Template #1 (used in App 1 only)
  Key modifications include styling the main app container, form elements, sidebar, navigation bar, success messages, titles, buttons, text inputs, and select boxes in a streamlit application.
 
 [Template #1 - Image](media/template1_style.png)
 
 [Template #1 - Demo Video](https://microsoft-my.sharepoint.com/:v:/p/camerjackson/EXjjir5b0r1Gg91bKMBzakcBuTS4RqItXuzgc6X0sEPm7Q?e=XfwgDC)
 
-[Template #1 - Tutorial](tutorials/template1_style/readme.md)
+[Template #1 - Tutorial](tutorials/1_template1_style/readme.md)
 
 [Template #1 - CSS](templates/template1_style.css)
 
-[Template #1 - Python](app/Page_One.py)
+[Template #1 - Python](apps/app_1/Page_One.py)
 
-### Template #2
+### Template #2 (used in App 1 only)
  Key modifications include styling the chat input class and streamlit menu class, in a streamlit application.
 
 [Template #2 - Image](media/template2_style.png)
 
 [Template #2 - Demo Video](https://microsoft-my.sharepoint.com/:v:/p/camerjackson/EVQHO8swd09BgHMDd9-i9mcB2UVUs69A3UtYGZalinrlAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bUfojP)
 
-[Template #2 - Tutorial](tutorials/template2_style/readme.md)
+[Template #2 - Tutorial](tutorials/2_template2_style/readme.md)
 
 [Template #2 - CSS](templates/template2_style.css)
 
-[Template #2 - Python](app/pages/Page_Two.py)
+[Template #2 - Python](apps/app_1/pages/Page_Two.py)
+
+### App 2 
+App 2 is dedicated to developing a Streamlit application, integrating the Streamlit navigation bar for enhanced user interaction. This methodology is particularly suited for scenarios requiring the construction of single or multi-page applications utilizing navigation bars for seamless navigation and user experience.
+
+[App 2 - Image](media/app2_styling.png)
+
+[App 2 - Tutorial](tutorials/3_app_2_style/readme.md)
+
+[App 2 - Python](apps/app_2/app.py)
