@@ -7,7 +7,7 @@ def chat(messages, question):
         st.markdown(question)  
     with st.spinner('Processing...'):  
         time.sleep(5)  
-        response = "Welcome to Streamlit Template 2."  
+        response = "Welcome to App 2!" 
         messages.append({"role": "assistant", "content":response})  
         with st.chat_message("assistant", avatar="🤖"):  
             st.markdown(response)  

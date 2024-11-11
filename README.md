@@ -102,6 +102,8 @@ App 2 is dedicated to developing a Streamlit application, integrating the Stream
 
 [App 2 - Image](media/app2_styling.png)
 
+[App 2 - Demo Video](https://microsoft-my.sharepoint.com/:v:/p/camerjackson/EY5N4ktKLUZFoaK2lS1OulsB6zpg0G5BidIWu8kmaCQktQ?e=sQC1a0&nav=eyJwbGF5YmFja09wdGlvbnMiOnt9LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiIxZmFhYjNlNS04YzgzLTQ1ZWUtODkzMC0zMTAzZjg2ZGNkMDkifX0%3D)
+
 [App 2 - Tutorial](tutorials/3_app_2_style/readme.md)
 
 [App 2 - Python](apps/app_2/app.py)
