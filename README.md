@@ -18,7 +18,7 @@ Navigate to:
 ## Embed CSS to Streamlit site  <a name="embed-css-to-streamlit-site"></a> 
 
 To embed css file to streamlit follow these steps:
-1. Create CSS file in project directory. Use `style_example.css` as template.
+1. Create CSS file in the app's directory. Example for css file `style_example.css`.
    
 2. Create a standalone python file to open the css file. Example for python file `styling_example.py`:
 ```python
@@ -60,14 +60,28 @@ git clone https://github.com/microsoft/Streamlit_UI_Template
 pip install -r requirements.txt  
 ```
 
-**Navigate to the /app directory**
+**Navigate to either the /app_1 or /app_2 directory**
+
+Navigation to /app_1:
 ```
-cd app
+cd apps/app_1
+```
+
+Navigation to /app_2:
+```
+cd apps/app_2
 ```
 
 **Run the streamlit application**
+
+Command for app_1:
 ```
 streamlit run Page_One.py
+```
+
+Command for app_2:
+```
+streamlit run app.py
 ```
 
 ## Templates <a name="templates"></a> 
