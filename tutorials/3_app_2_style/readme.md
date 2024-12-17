@@ -15,7 +15,7 @@ pages/
 ```
 
 ## 1. Understanding Streamlit Basics <a name="streamlit-basics"></a> 
-In Streamlit, the `st.set_page_config` function is used to configure the initial settings of the page, such as the layout and the state of the sidebar. 
+In `app.py`, the `st.set_page_config` function is used to configure the initial settings of the page, such as the layout and the state of the sidebar. 
 ```python 
 import streamlit as st  
   
