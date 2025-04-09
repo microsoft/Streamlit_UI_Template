@@ -1,6 +1,13 @@
 # Streamlit UI Template (CSS)
 
-This repository contains guides and templates for embedding CSS into Streamlit applications. It provides step-by-step instructions on how to create and implement a CSS file in your Streamlit project. Ideal for those looking to customize their Streamlit UI appearance.
+This repository provides templates and tutorials for creating visually appealing and functional Streamlit applications using custom CSS. Whether you're building a single-page chatbot, a multi-page app with navigation, or a professional UI with custom styling, this project has you covered.
+
+Streamlit is a Python-based framework for building interactive web applications. By combining Streamlit's simplicity with custom CSS, you can create polished and professional UIs tailored to your needs.
+
+This project includes:
+- **App 1**: A multi-page app featuring a form-based interface with custom CSS for styling and a chat interface with additional CSS for streamlined interactions.
+- **App 2**: A multi-page app featuring a chat interface, with a navigation bar to enhance usability and organization across multiple pages.
+- **App 3**: A single-page chat interface app with minimalistic styling injected directly into the Python script.
 
 If interested in a specific template, please reach out to Cameron Jackson (MS Fed Civ - Cloud Solution Architect) at camerjackson@microsoft.com.
 
@@ -15,28 +22,53 @@ Navigate to:
 - Installed a code editor such as [Visual Studio Code](https://code.visualstudio.com/download) or an equivalent.
 - Installed [Python](https://www.python.org/downloads/) on your machine. Python installation by running `python --version` in the command line. This project was created with Python 3.11.
 
-## Embed CSS to Streamlit site  <a name="embed-css-to-streamlit-site"></a> 
+## Embed CSS in Streamlit Apps <a name="embed-css-to-streamlit-site"></a>
 
-To embed css file to streamlit follow these steps:
-1. Create CSS file in the app's directory. Example for css file `style_example.css`.
-   
-2. Create a standalone python file to open the css file. Example for python file `styling_example.py`:
-```python
-   import streamlit as st
-   def global_page_style():  
-       with open('style_example.css') as f:
-           css = f.read()
-       st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
-```
-3. Call the file from step 2 into the streamlit app code file (Note: If multipage app, call on each page.) 
-```python
-   from styling import global_page_style
-```
-4. Call the function in your code:
-```python
-   if __name__ == '__main__':
-        global_page_style()
-```
+Streamlit apps in this repository use two approaches to apply custom styles:
+
+1. **Using a CSS File**:
+   - Create a CSS file (e.g., `style.css`) in the app's directory.
+   - Load and apply the CSS file in your app using the following function:
+     ```python
+     import streamlit as st
+
+     def apply_custom_css(css_file):
+         with open(css_file) as f:
+             css = f.read()
+         st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
+     ```
+   - Call this function in your app:
+     ```python
+     apply_custom_css('style.css')
+     ```
+
+2. **Embedding Styles Directly in Python**:
+   - For simpler apps, you can embed CSS directly in the Python script:
+     ```python
+     import streamlit as st
+
+     def apply_inline_styles():
+         css = """
+         body {
+             background-color: #f0f0f0;
+         }
+         .stButton>button {
+             color: white;
+             background-color: #007bff;
+         }
+         """
+         st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
+     ```
+   - Call this function in your app:
+     ```python
+     apply_inline_styles()
+     ```
+
+### Notes:
+- **App 1** uses the first approach with an external `.css` file for more complex styling.
+- **Apps 2 and 3** use the second approach, embedding styles directly in the Python script for simplicity.
+
+Choose the approach that best fits your app's requirements.
 
 ## Run the Demo App Locally <a name="run-the-demo-app-locally"></a> 
 
@@ -60,7 +92,7 @@ git clone https://github.com/microsoft/Streamlit_UI_Template
 pip install -r requirements.txt  
 ```
 
-**Navigate to either the /app_1 or /app_2 directory**
+**Navigate to either the /app_1, /app_2, or /app_3 directory**
 
 Navigation to /app_1:
 ```
@@ -72,6 +104,11 @@ Navigation to /app_2:
 cd apps/app_2
 ```
 
+Navigation to /app_3:
+```
+cd apps/app_3
+```
+
 **Run the streamlit application**
 
 Command for app_1:
@@ -81,16 +118,26 @@ streamlit run Page_One.py
 
 Command for app_2:
 ```
-streamlit run app.py
+streamlit run app_2.py
+```
+
+Command for app_3:
+```
+streamlit run app_3.py
 ```
 
 ## Templates <a name="templates"></a> 
-### Template #1 (used in App 1 only)
- Key modifications include styling the main app container, form elements, sidebar, navigation bar, success messages, titles, buttons, text inputs, and select boxes in a streamlit application.
+
+### App 1
+App 1 is a multi-page Streamlit application. It includes:
+- **Page 1**: A form-based interface with custom CSS for form elements, sidebar, and navigation.
+- **Page 2**: A chat interface styled using `template2_style.css`, designed for streamlined user interactions.
+
+#### Page 1 
 
 [Template #1 - Image](media/template1_style.png)
 
-[Template #1 - Demo Video](https://microsoft-my.sharepoint.com/:v:/p/camerjackson/EXjjir5b0r1Gg91bKMBzakcBuTS4RqItXuzgc6X0sEPm7Q?e=XfwgDC)
+[Template #1 - Demo Video](https://microsoft-my.sharepoint.com/:v:/p/camerjackson/EXjjir5b0r1Gg91bKMBzakcBuTS4RqItXuzgc6X0sEPm7Q)
 
 [Template #1 - Tutorial](tutorials/1_template1_style/readme.md)
 
@@ -98,12 +145,11 @@ streamlit run app.py
 
 [Template #1 - Python](apps/app_1/Page_One.py)
 
-### Template #2 (used in App 1 only)
- Key modifications include styling the chat input class and streamlit menu class, in a streamlit application.
+#### Page 2
 
 [Template #2 - Image](media/template2_style.png)
 
-[Template #2 - Demo Video](https://microsoft-my.sharepoint.com/:v:/p/camerjackson/EVQHO8swd09BgHMDd9-i9mcB2UVUs69A3UtYGZalinrlAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bUfojP)
+[Template #2 - Demo Video](https://microsoft-my.sharepoint.com/:v:/p/camerjackson/EVQHO8swd09BgHMDd9-i9mcBPDjxwfHgEElmLC9vSOZ6uA)
 
 [Template #2 - Tutorial](tutorials/2_template2_style/readme.md)
 
@@ -111,13 +157,28 @@ streamlit run app.py
 
 [Template #2 - Python](apps/app_1/pages/Page_Two.py)
 
-### App 2 
-App 2 is dedicated to developing a Streamlit application, integrating the Streamlit navigation bar for enhanced user interaction. This methodology is particularly suited for scenarios requiring the construction of single or multi-page applications utilizing navigation bars for seamless navigation and user experience.
+---
+
+### App 2
+App 2 is a multi-page Streamlit application that features a chat interface as its primary focus, with a navigation bar to enhance usability and organization across multiple pages.
 
 [App 2 - Image](media/app2_styling.png)
 
-[App 2 - Demo Video](https://microsoft-my.sharepoint.com/:v:/p/camerjackson/EY5N4ktKLUZFoaK2lS1OulsB6zpg0G5BidIWu8kmaCQktQ?e=sQC1a0&nav=eyJwbGF5YmFja09wdGlvbnMiOnt9LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiIxZmFhYjNlNS04YzgzLTQ1ZWUtODkzMC0zMTAzZjg2ZGNkMDkifX0%3D)
+[App 2 - Demo Video](https://microsoft-my.sharepoint.com/:v:/p/camerjackson/EY5N4ktKLUZFoaK2lS1OulsB6zpg0G5BidIWu8kmaCQktQ)
 
 [App 2 - Tutorial](tutorials/3_app_2_style/readme.md)
 
-[App 2 - Python](apps/app_2/app.py)
+[App 2 - Python](apps/app_2/app_2.py)
+
+---
+
+### App 3
+App 3 is a single-page chatbot application that focuses on simplicity and functionality. It does not include a sidebar or navigation bar, making it ideal for streamlined user interactions. The app includes custom CSS styling injected directly into the Python script.
+
+[App 3 - Image](media/app3_styling.png)
+
+[App 3 - Demo Video](https://microsoft-my.sharepoint.com/:v:/p/camerjackson/EULxCd30tK9IoLvzkRIsGxoBDZ-A_3u7100yhtsBxo_z8A)
+
+[App 3 - Tutorial](tutorials/4_app_3_style/readme.md)
+
+[App 3 - Python](apps/app_3/app_3.py)
