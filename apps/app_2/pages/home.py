@@ -7,7 +7,7 @@ def chat(messages, question):
         st.markdown(question)  
     with st.spinner('Processing...'):  
         time.sleep(5)  
-        response = "Welcome to App 2!" 
+        response = "Welcome to App 2. **This response simulates your AI model's response**" 
         messages.append({"role": "assistant", "content":response})  
         with st.chat_message("assistant", avatar="🤖"):  
             st.markdown(response)  
@@ -19,7 +19,7 @@ def clear_session(messages):
     return messages  
   
 def home():  
-    st.markdown('<h1 class="title">Streamlit UI APP2</h1>', unsafe_allow_html=True) 
+    st.markdown('<h1 class="title">Streamlit UI APP #2</h1>', unsafe_allow_html=True) 
   
     if 'messages' not in st.session_state:  
         st.session_state.messages = []  
